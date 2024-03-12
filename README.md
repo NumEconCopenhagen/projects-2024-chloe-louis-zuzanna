@@ -2,7 +2,7 @@
 
 **Group members:**
 - Zuzanna Włodarska
-- B
+- Louis Galvez
 - C
 
 This repository contains  
