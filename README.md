@@ -2,7 +2,7 @@
 
 **Group members:**
 - Zuzanna Włodarska
-- B
+- Chloe Pang
 - C
 
 This repository contains  
