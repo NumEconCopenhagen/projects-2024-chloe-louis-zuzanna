@@ -2,8 +2,8 @@
 
 **Group members:**
 - Zuzanna Włodarska
+- Louis Galvez
 - Chloe Pang
-- C
 
 This repository contains  
 1. Inaugural project. 
