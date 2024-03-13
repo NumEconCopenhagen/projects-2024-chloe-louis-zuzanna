@@ -24,7 +24,7 @@ class inauguralprojectclass:
         return 1 - omega2A
 
     #utility functions
-    def utility_A(x1A, x2A, alpha):
+    def utility_A(self, x1A, x2A):
         return x1A**alpha * x2A**(1-alpha)
 
     def utility_B(x1B, x2B, beta):
