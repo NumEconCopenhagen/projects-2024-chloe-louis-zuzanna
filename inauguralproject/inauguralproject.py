@@ -5,20 +5,23 @@ import matplotlib.pyplot as plt
 
 class inauguralprojectclass:
 
+    def __init__(self):
+
+        par = self.par = SimpleNamespace()
+
+        #preferences
+        par.alpha = 1/3
+        par.beta = 2/3
+
+        #endowment
+        par.omega1A = 0.8
+        par.omega2A = 0.3
+
     def omega1B(omega1A):
         return 1 - omega1A
 
     def omega2B(omega2A):
         return 1 - omega2A
-
-    #preferences
-    alpha = 1/3
-    beta = 2/3
-
-    #endowment
-    omega1A = 0.8
-    omega2A = 0.3
-
 
     #utility functions
     def utility_A(x1A, x2A, alpha):
@@ -36,3 +39,6 @@ class inauguralprojectclass:
 
     def demand_1B(p1, p2, omega1B, omega2B):
         return beta((p1*omega1B + p2*omega2B)/p1)
+    
+    def demand_2B(p1, p2, omega1B, omega2B):
+        return (1-beta)(p1 * omega1B + p2 * omega2B)/p2
